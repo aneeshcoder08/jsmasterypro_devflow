@@ -1,9 +1,10 @@
-
-
-const Page = () => {
+const Home = () => {
   return (
-    <h1 className='text-6xl'>Ultimate Next JS Course</h1>
-  )
-}
+    <div>
+      <h1 className="h1-bold">Ultimate Next JS Course</h1>
+      <h1 className="h1-bold font-space-grotesk">Ultimate Next JS Course</h1>
+    </div>
+  );
+};
 
-export default Page
+export default Home;
